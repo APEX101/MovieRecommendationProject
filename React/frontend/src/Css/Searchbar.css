@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+
+  align-content: center;
+  height: 40vh;
+  width: 65vw;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchbar {
+  display: flex;
+}
+
+.appbar {
+  background-image: url("../Images/wa.jpg");
+
+  background-size: 1000px 302px;
+  backdrop-filter: blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,9 @@
+env/
+MovieSite/ML_Data/
+Recommender system/Movies recommend (content based filter)/.ipynb_checkpoints
+Recommender system/Movies recommend (content based filter)/moviesrecommender.joblib
+Recommender system/Movies recommend (content based filter)/similarityscores.joblib
+Recommender system/Movies recommend (content based filter)/tmdb_5000_credits
+Recommender system/Movies recommend (content based filter)/tmdb_5000_movies
+Sentiment Analysis/model.joblib
+Sentiment Analysis/tokenizer.joblib

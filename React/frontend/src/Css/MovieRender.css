@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+.content {
+  float: left;
+  width: 100%;
+  padding-bottom: 5vh;
+  background-image: url("../Images/netflix\ over.jpg");
+}
+
+.backdrop {
+  display: flex;
+  height: 65vh;
+  border: 3px solid blue;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(8px);
+  z-index: 0;
+}
+
+.opacity {
+  position: absolute;
+
+  bottom: 0.001vh;
+  left: 2vw;
+}
+.image {
+  backdrop-filter: blur(50px);
+  height: 66vh;
+  width: 24vw;
+  /* height: 30vh; */
+}
+
+.info {
+  position: absolute;
+  left: 28vw;
+
+  bottom: 5vh;
+
+  width: 50vw;
+  height: 50vh;
+  color: white;
+}
+
+.recommend {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.moviestitless {
+  width: 12vw;
+}
+
+.sentiments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.commentrender {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  padding-top: 20px;
+
+  /* border: 3px solid green; */
+}
+
+.commentrenderinside {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+}
+.button {
+  border: none;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: medium;
+}
+
+.text {
+  font-family: "Merriweather", serif;
+}

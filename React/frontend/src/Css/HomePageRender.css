@@ -1,0 +1,34 @@
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  border: 3px solid green;
+}
+
+.moviesrender {
+  margin-left: 10vh;
+  height: 50;
+  border: 3px solid red;
+  border-radius: 50px;
+}
+
+.photo {
+  height: 40vh;
+  width: 13vw;
+  margin-left: 6px;
+}
+
+.moviecontainer {
+  width: fit-content;
+
+  margin-left: 10px;
+  height: 70vh;
+
+  /* background-color: blue; */
+}
+
+.moviestitlerender {
+  color: white;
+}
